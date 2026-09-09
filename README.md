@@ -19,8 +19,11 @@ Standard Alpaca-style. `input` is always empty; everything lives in
 
 - **59 curated topics × 6 phrasings** — expert answers on discord.py patterns,
   moderation, deploys, debugging real incidents from this build.
+- **60 topic deep-dive set** — Python/asyncio, Flask, ops, security, git.
 - **AST code pairs** — real functions extracted from the bot source
-  (docstring/task → implementation).
+  (docstring/task → implementation) plus reverse explain-this-code pairs.
+- **Behavioral pairs** — real bot helpers executed on sampled inputs
+  (input → verified output), including seeded RNG cases.
 - **Safety pair** — self-bots/user-token automation refused (ToS).
 
 Regenerate: `python generate_data.py --bot-dir ../discord-bot --out dataset.jsonl`

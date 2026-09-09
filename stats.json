@@ -1,9 +1,11 @@
 {
-  "pairs": 403,
+  "pairs": 885,
   "skipped": 0,
-  "curated_topics": 59,
+  "curated_topics": 113,
   "generators": [
     "curated-x6",
-    "code-ast"
+    "code-ast",
+    "behavioral-exec",
+    "explain-code"
   ]
 }
