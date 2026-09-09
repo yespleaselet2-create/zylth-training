@@ -1,0 +1,9 @@
+{
+  "pairs": 403,
+  "skipped": 0,
+  "curated_topics": 59,
+  "generators": [
+    "curated-x6",
+    "code-ast"
+  ]
+}
