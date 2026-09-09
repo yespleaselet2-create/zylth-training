@@ -28,6 +28,14 @@ Standard Alpaca-style. `input` is always empty; everything lives in
 
 Regenerate: `python generate_data.py --bot-dir ../discord-bot --out dataset.jsonl`
 
+## Dialogues
+
+`dialogues.jsonl` — ShareGPT-format multi-turn support conversations
+(`{"conversations": [{"from": "human"|"gpt", "value": ...}]}`),
+written in the bot's voice: verify/tickets/roles help, appeals, reports,
+scam safety, refusals (self-bots, admin begging), plus crisis care.
+Regenerate: `python dialogues.py`
+
 ## Stats
 
 See `stats.json` (currently 403 pairs, 0 skipped by the secret scanner).
